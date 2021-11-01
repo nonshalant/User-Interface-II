@@ -137,6 +137,7 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 35%;
+    
 
 }
 
@@ -146,6 +147,7 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 35%;
+   
 
 }
 
@@ -154,7 +156,7 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 35%;
-
+    
 }
 
 img{
@@ -167,8 +169,13 @@ p{
     padding: 10%;
     color:whitesmoke;
     text-align: center;
-    line-height: 3;
-  
+    line-height: 3.1;  
+}
+
+@media(max-width: 800px){
+    header{
+        display: flex;
+    }
 }
 
 
