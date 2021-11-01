@@ -275,8 +275,8 @@ footer{
     }
     .row__two{
     	display: flex;
-    	flex-direction:column;
-    	width: 100%;
+    	
+    	width: 50%;
     }
     .row__two h3{
     	margin: auto;
