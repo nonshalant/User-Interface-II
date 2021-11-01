@@ -75,7 +75,7 @@ header{
 }
 
 .nav__links li{
-    border: 1px solid black;
+    
 }
 
 .nav__links a{
@@ -83,6 +83,8 @@ header{
     text-align: center;
     background-color: white;
     color: #4f4f4f;
+    border: 1px solid black;
+    width: auto;
 }
 
 .nav__links a:hover{
@@ -241,7 +243,7 @@ footer{
 
     .nav__links a{
         display: inline-block;
-        width: 30%;
+        width: 45%;
         font-size: 3rem;
     }
 
@@ -275,28 +277,36 @@ footer{
     }
     .row__two{
     	display: flex;
+    	flex-wrap: wrap;
     	
-    	width: 50%;
     }
+
     .row__two h3{
     	margin: auto;
     }
+
+
     .row__two img{
-    	margin:auto;
+    	width: 300px;
     }
+
+
      .row__three{
     	display: flex;
-    	flex-direction:column;
-    	width: 100%;
+    	flex-wrap: wrap;
+    	
     }
     .row__three h3{
-    	margin: auto;
+    	margin:0 auto;
     }
     .row__three img{
-    	margin:auto;
+    	width: 300px;
     }
     .container{
         margin-bottom: 2%;
+    }
+    footer{
+        font-size: 3rem;
     }
 
 }
